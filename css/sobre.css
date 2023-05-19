@@ -48,6 +48,16 @@ figure img {
     width: 100%;
 }
 
+.contato__secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato__secao--telefone {
+    margin-left: 32px;
+}
+
 .contato__subtitulo {
     display: inline;
 }
