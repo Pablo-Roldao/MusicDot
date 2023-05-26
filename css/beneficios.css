@@ -47,6 +47,7 @@
 @media (min-width:768px) {
     .beneficios {
         margin-bottom: 3.7rem;
+        grid-area: beneficios;
     }
 
     .beneficios__lista {

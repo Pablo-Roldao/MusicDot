@@ -121,7 +121,8 @@
         grid-template-areas: 
         "header header"
         "card1 card2"
-        "footer footer";
+        "footer footer"
+        "beneficios beneficios";
         gap: 1rem;
         justify-content: center;
         padding-bottom: 2rem;
@@ -143,6 +144,7 @@
 
     .planos__pagamentos {
         grid-column-end: span 2;
+        margin-bottom: 4rem;
     }
 
     .planos--maisassinado {

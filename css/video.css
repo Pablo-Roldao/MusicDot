@@ -4,15 +4,17 @@
     align-items: center;
     text-align: center;
     color: #fff;
-    background-color: #2a3042;
+    background-color: transparent;
 }
 
 .video--mobile {
-    width: 100%;
+    width: 90%;
+    border-radius: 8px;
 }
 
 .video--desktop {
     display: none;
+    border-radius: 8px;
 }
 
 .video__textos {

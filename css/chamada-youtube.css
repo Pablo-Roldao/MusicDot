@@ -1,5 +1,5 @@
 .chamada__youtube {
-    background-color: #2e4255;
+    background-color: #0d1621;
     display: grid;
     justify-items: center;
 }
@@ -79,13 +79,15 @@
 
 .chamada__youtube--video1, .chamada__youtube--video2 {
     background-size: cover;
-    width: 100%;
+    width: 90%;
     height: 100%;
+    border-radius: 8px;
 }
 
 @media (min-width: 768px) {
     .chamada__youtube {
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15rem 25rem;
         grid-template-areas: 
         "chamada chamada"
         "video1 video2";
@@ -142,6 +144,7 @@
     .video__descricao {
         width: 75%;
         text-align: left;
+        vertical-align: bottom;
     }
 
     .descricao__titulo {
